@@ -1,0 +1,31 @@
+.mainContainer{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto ;
+}
+.mainTextt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.mainTextt h1{
+    color: rgba(46, 58, 89, 1);
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 42px;
+}
+.mainTextt hr{
+    width: 800px;
+    color: rgba(197, 206, 224, 1);
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.mainTextt p{
+    width: 800px;
+    color: rgba(46, 58, 89, 1);
+    font-size: 16px;
+    line-height: 24px;
+}

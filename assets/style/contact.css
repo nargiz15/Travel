@@ -1,0 +1,72 @@
+.mainForm{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+form{
+    
+    display: flex;
+    flex-direction: column;
+     gap: 25px;
+}
+.InputText{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.InputText, .messageTextArea label{
+    font-size: 12px;
+    color: rgba(46, 58, 89, 1);
+    line-height: 16px;
+    font-weight: 400;
+}
+.InputText input{
+     background-color: rgba(247, 249, 252, 1);
+     border-radius: 8px;
+    padding: 10px;
+    width: 384px;
+    height: 48px;
+    border: 1px solid rgba(228, 233, 242, 1);
+    outline: none;
+    color: rgba(143, 155, 179, 1);
+    font-weight: 500;
+    font-size: 14px;
+}
+.messageTextArea{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.messageTextArea textarea{
+    resize: none;
+    outline: none;
+    border: 1px solid rgba(228, 233, 242, 1);
+    width: 384px;
+    height: 108px;
+    background-color: rgba(247, 249, 252, 1);
+    border-radius: 8px;
+    padding: 10px;
+    color:rgba(143, 155, 179, 1);
+    font-size: 16px;
+    font-weight: 500;
+}
+.messageTextArea textarea::placeholder{
+    font-size: 16px; 
+    color: rgba(143, 155, 179, 1);
+}
+form button{
+    background-color: rgba(46, 58, 89, 1);
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 384px;
+    height: 46px;
+    font-size: 15px;
+    line-height: 24px;
+}
